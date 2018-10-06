@@ -16,23 +16,53 @@
         android:textSize="36sp"
         android:background="#ffff00"
         />
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:text="222"
-        android:background="#00ff00"
-        android:paddingVertical="36dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#f00"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0f0"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Hello"
+            android:textSize="24dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:background="#00f"
+            android:textStyle="bold|italic"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ff0"
 
-        />
+            />
+
+
+    </LinearLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.23"
-        android:text="32"
+        android:layout_weight="3"
+        android:text="325"
         android:textSize="24sp"
         android:background="#999999"
-
+        android:gravity="center_vertical|center"
 
         />
 
